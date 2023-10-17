@@ -1,3 +1,6 @@
-Основные файлы в репрозитории это:
-* "Web_database_API\Web_database_API\models\DatabaseInfo.cs";
-* "Web_database_API\Web_database_API\Controllers\DatabaseInfoController.cs".
+В данный репрозиторий выгружена работа Майорова Никиты по тестовому заданию backend разработчика (.NET Core)
+
+В данном API реализованна API работающее в localhost, подкючен swagger для проверки запросов и PostgreSQL в качестве базы данных.
+Настройка подключения в PostgreSQL находится в файле appsettings.json в нутри проекта. ip в нутри базы данных реализованы через тип данных Guid. 
+
+P.S. Созданная через миграцию, база данных создает таблицу Contacts, а не User.  
