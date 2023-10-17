@@ -1,10 +1,7 @@
-﻿
-
-namespace Web_database_API.models
+﻿namespace Web_database_API.models
 {
-    public class DatabaseInfo
+    public class UpdateContactRequest
     {
-        public Guid Id { get; set; }
 
         public string SecondName { get; set; }
 
